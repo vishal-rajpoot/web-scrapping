@@ -2,7 +2,7 @@
 
 # pip install requests
 # pip install bs4
-
+print("**************    DEVELOPED    BY     VISHAL RAJPUT        **************")
 # STEP 1:- IMPORT MODULES
 import requests   # "REQUEST" MODULE DEFINES FUNCTIONS AND CLASSES WHICH HELP IN OPENING URL'S.
 import bs4        # HERE "BEAUTIFUL SOUP" MODULE DEFINES FUNCTIONS AND CLASSES WHICH HELP TO PARSE THE HTML TEXT IN A PROPER READABLE FORMAT.
@@ -35,3 +35,4 @@ no_of_as = len(list_as)
 
 print("no of img tags", no_of_imgs)
 print("no of anchor tags", no_of_as)
+
