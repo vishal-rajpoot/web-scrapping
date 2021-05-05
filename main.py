@@ -12,7 +12,7 @@ url = input("enter your url ")
 response = requests.get(url) # WHEN OUR REQUEST GETS APPROVED AND WE WILL GET RESPONSE FROM THE SERVER OF THE GIVEN URL 
 
 print(type(response))
-# print(response.text)  # HERE WE PRINTED THE RESPONSE TEXT FROM THE SERVER.
+# print(response.text)  # HERE WE PRINT THE RESPONSE TEXT FROM THE SERVER.
 
 # STEP 3:- PARSE THE HTML
 filename = "temp.html"   # HERE WE CREATED TEMPORARY HTML FILE TO SAVE THE REQUESTED CONTENT FROM THE URL.
